@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', function () {
+    return view('welcome');
+});
+
+// & Stopped here at trying to get `View testcontroller@show` to work.
+
+Route::group([
+    // "middleware" => ["auth"],
+], function() {
+    Route::get('/test', "TestController@show");
+});
+
+Route::get('/test', function() {
+    return view('TestController@show');
+});
