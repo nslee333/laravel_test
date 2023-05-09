@@ -1,1 +1,1 @@
-A Laravel project to play around with.
+A Laravel Breeze project setup with Inertia to use React on the frontend.
