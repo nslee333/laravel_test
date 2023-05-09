@@ -25,7 +25,6 @@ Route::get('/', function () {
     ]);
 });
 
-//  TODO I want to add a page @ /test and display a component.
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
