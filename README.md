@@ -1,1 +1,0 @@
-Laravel project to play around with.
